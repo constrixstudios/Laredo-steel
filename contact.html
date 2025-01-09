@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+    <html lang="en">
+<head>
+        <title>LAREDO STEEL</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="css/contact.css"> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link  href="https://fonts.googleapis.com/css? family=kaushan+script|poppins&display=swap" rel="stylesheet"> 
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+        <link rel="apple-touch-icon" sizes="180x180" href="css/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="css/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="css/img/favicon-16x16.png">
+<link rel="manifest" href="css/img/site.webmanifest">
+</head>
+<body>
+    <section id="contact">
+        <div class="title-text">
+            <p>Contact Us</p>
+            <h1>Fast delivery</h1>
+            </div>
+        <form id="contact-form" action="https://formspree.io/f/mblrwolo" method="POST">
+        <input type="name" name="first & last" placeholder=" Your name" autocomplete="off" required>
+        <input type="email" name="email" placeholder="Your Email" autocomplete="off" required>
+        <input type="phone no" name="phone no" placeholder="Your phone no" autocomplete="off" required>
+        <select name="service" id="service-option" class="mod_tm_ajax_contact_form_select" required="" title="Are you interested in a specifical service?"><option value="test" disabled="" selected="">Service option</option><option value="Gates">Gates</option><option value="playground accessories">Playground accessories</option><option value="Burglaries">Burglaries</option><option value="Doors">Doors</option><option value="Park chairs">Park chairs</option><option value="Event accessories">Event accessories</option>
+            <option value="Car cover">car cover</option><option value="Home design">Home design</option><option value="School chairs and table">School chairs & tables</option><option value="office chairs">Office chairs & table</option><option value="Truck body">Truck body</option>
+            <option value="street light pole">Steet light pole</option><option value="Dog cages">Dog cage</option><option value="shop container">container shop</option><option value="Decking pole and mat">Decking pole & mat</option><option value="Tank stand">Tank stand</option>
+            <option value="Staircase">Staircase</option><option value="Billboard">Billboards</option><option value="other ironworks, it is not in services">Other ironworks</option></select>
+        <textarea rows="5" cols="50" name="message" placeholder="Did not find what you need!! tell us about the other services....." "autocomplete="off"></textarea>
+        
+  
+  <select name="Contact preference" id="position_4_259" class="mod_tm_ajax_contact_form_select" required="" title="Are you interested in a specifical service?"><option value="test" disabled="" selected="">Contact preference...</option><option value="e-mail">E-mails</option><option value="whatsapp">Whatsapp</option><option value="other">Other</option></select>
+  
+  
+  
+        <button type="submit">send</button>
+        </form>
+        <div class="hero-text-box">
+            <a class="btn btn-full" href="services.html">Back</a>
+        </div>
+        
+        <div class="social-links">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-youtube-play"></i>
+        <p>Copyright Laredo steel constructions. </p>
+    </div>
+        
+    </section>
+    
+    <script>
+		function getUrlParameter(name) {
+			const url = new URL(window.location.href);
+			return url.searchParams.get(name);
+		}
+		
+		const selectedService = getUrlParameter('service');
+		document.getElementById('service-option').value = selectedService;
+	</script>
+	
+</body>
+</html>
