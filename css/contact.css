@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#contact{
+    background-color: #e2e2e2;
+}
+input{
+    background-color: #fff;
+    width: 50%;
+    margin-left: 25%;
+    font-size: 20px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    border-color: #72bddb;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #635f5f;
+}
+
+textarea{
+    background-color: #fff;
+    width: 60%;
+    margin-left: 25%;
+    font-size: 20px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    border-color: #72bddb;
+    margin-bottom: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #635f5f;
+}
+
+input:focus-within{
+    outline: none;
+    border-color: #2062ad;
+    border-width: 3px;
+}
+
+textarea:focus-within{
+    outline: none;
+    border-color: #2062ad;
+    border-width: 3px;
+}
+button{
+    width: 9%;
+    background-color: #2062ad;
+    border-color: #2062ad;
+    font-size: 22px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    padding-left:30px;
+    color:#fff
+}
+
+button:hover{
+    background-color: #fff;
+    cursor: pointer;
+    color: #2062ad;
+    border: 2px solid #3069b4;
+}
+
+.mod_tm_ajax_contact_form_select{
+    background-color: #fff;
+    width: 50%;
+    margin-left: 25%;
+    font-size: 20px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    border-color: #72bddb;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #635f5f;
+}
+.mod_tm_ajax_contact_form_select:focus-within{
+    outline: none;
+    border-color: #2062ad;
+    border-width: 3px;
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 40px;
+}
+.title-text p{
+    margin: auto;
+    font-size: 30px;
+    color: #2062ad;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+
+.title-text p::after{
+    content: '';
+    width: 80px;
+    height: 35px;
+    background: linear-gradient(#2062ad,#fff);
+    position: absolute;
+    top: -20px;
+    left: 60px;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+.title-text h1{
+    font-size: 50px;
+}
+
+#feature{
+    width: 100%;
+    padding: 70px 0;
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 40px;
+}
+.title-text p{
+    margin: auto;
+    font-size: 30px;
+    color: #2062ad;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+
+.title-text p::after{
+    content: '';
+    width: 80px;
+    height: 35px;
+    background: linear-gradient(#2062ad,#fff);
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+.title-text h1{
+    font-size: 50px;
+}
+.btn:link,
+.btn:visited {
+display: inline-block;
+padding: 10px 30px;
+font-weight: 300;
+text-decoration: none;
+transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+
+.btn-full:link,
+.btn-full:visited {
+border: 1px solid #2062ad;
+color: #2062ad;
+}
+
+.btn:hover,
+.btn:active {
+background-color: #2062ad;
+}
+
+.btn-full:hover,
+.btn-full:active{
+border: 1px solid #2062ad;
+color: #fff;
+}
+.hero-text-box{
+    padding-top: 20px;
+    margin-left: 46.5%;
+}
+
+.social-links{
+    text-align: center;
+}
+.social-links .fa{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid #2062ad;
+    margin:40px 5px 0;
+    color: #2062ad;
+    cursor: pointer;
+    transition: .5s;
+}
+.social-links .fa:hover{
+    background: #2062ad;
+    color: #fff;
+    transform: translateY(-7px);
+}
+.social-links p{
+    font-family: 12px;
+    margin-top: 20px;
+}
+
+#uploaded-images{
+    margin-top:20px;
+}
+
+#uploaded-images img{
+    width:100px;
+    height:100px;
+    margin:10px;
+    border: 1px solid #ccc;
+}
+
+
+
+
+@media screen and (max-width: 770px){
+
+
+    input{
+        font-size: 13px;
+        width: 75%;
+        margin-left:12.5%;
+    }
+    textarea{
+        font-size: 13px;
+        width: 75%;
+        margin-left: 12.5%;
+    }
+    button{
+        width: 20%;
+    font-size: 17px;
+    text-align: center;
+    padding-left: 12px;
+    margin-bottom: 20px;
+   
+    }
+    .mod_tm_ajax_contact_form_select{
+        font-size: 13px;
+        width: 75%;
+        margin-left: 12.5%;
+    }
+    .title-text h1{
+        font-size: 30px;
+    }
+    .btn-full a{
+        display:inline-block;
+        margin : 10px auto;
+        width: 30px;
+    }
+    .hero-text-box{
+        margin-left: 36.5%;
+    }
+
+}
