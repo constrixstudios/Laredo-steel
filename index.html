@@ -32,5 +32,54 @@
                 <a href="home.html" target="_self"><span></span><b>Get started</b></a>
         </div>
     </section>
+	  
+// Disable right-click menu
+document.addEventListener('contextmenu', function(e){
+    e.preventDefault();
+});
+
+// Disable F12 key
+document.addEventListener('keydown', function(e){
+    if (e.keyCode == 123) {
+        e.preventDefault();
+    }
+});
+
+// Disable Ctrl+Shift+I
+document.addEventListener('keydown', function(e){
+    if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+        e.preventDefault();
+    }
+});
+
+// Disable Ctrl+U
+document.addEventListener('keydown', function(e){
+    if (e.ctrlKey && e.keyCode == 85) {
+        e.preventDefault();
+    }
+});
+
+// Disable developer tools
+document.addEventListener('keydown', function(e){
+    if (e.ctrlKey && e.shiftKey && e.keyCode == 73 || 
+        e.ctrlKey && e.keyCode == 85 || 
+        e.keyCode == 123) {
+        alert('Developer tools are disabled');
+        return false;
+    }
+});
+
+// Disable source code viewing
+document.addEventListener('keydown', function(e){
+    if (e.ctrlKey && e.shiftKey && e.keyCode == 73 || 
+        e.ctrlKey && e.keyCode == 85 || 
+        e.keyCode == 123 || 
+        e.button == 2) {
+        window.location = '(link unavailable)'; // redirect to homepage
+        return false;
+    }
+});
+
+	  
   </body>
 </html>
