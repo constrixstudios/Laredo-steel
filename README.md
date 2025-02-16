@@ -12,4 +12,4 @@ recommended to be downloaded to
 prevent virus from harming your 
 device.       
                courtesy:
-               Constrix studios.
+               Github.
